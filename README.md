@@ -8,8 +8,8 @@
 # User stories
 * [Legenda](#Legenda)
 * [Locatie omschrijving](#Locatie-omschrijving)
-* [Favoriete locaties](##Favoriete-locaties)
-* [Metingen top 10](##Metingen-top-10)
+* [Favoriete locaties](#Favoriete-locaties)
+* [Metingen top 10](#Metingen-top-10)
 
 ## Legenda
 Als gebruiker wil ik een tabel hebben van de stofnamen en hun omschrijving zodat ik deze als legenda kan gebruiken.
