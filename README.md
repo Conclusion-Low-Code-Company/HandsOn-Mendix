@@ -6,8 +6,8 @@
 * Alle benodigde logica, schermen en data staat in de module `AirMonitor`
 
 # User stories
-* [Legenda](##Legenda)
-* [Locatie omschrijving](##Locatie-omschrijving)
+* [Legenda](#Legenda)
+* [Locatie omschrijving](#Locatie-omschrijving)
 * [Favoriete locaties](##Favoriete-locaties)
 * [Metingen top 10](##Metingen-top-10)
 
