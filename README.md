@@ -6,6 +6,7 @@
 * Alle benodigde logica, schermen en data staat in de module `AirMonitor`
 
 # User stories
+* [Legenda](##Legenda)
 
 ## Legenda
 Als gebruiker wil ik een tabel hebben van de stofnamen en hun omschrijving zodat ik deze als legenda kan gebruiken.
