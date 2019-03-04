@@ -7,11 +7,11 @@
 
 # User stories
 * [Legenda](##Legenda)
-* [Locatie omschrijving](##Locatie omschrijving)
-* [Favoriete locaties](##Favoriete locaties)
-* [Metingen top 10](##Metingen top 10)
+* [Locatie omschrijving](##Locatie-omschrijving)
+* [Favoriete locaties](##Favoriete-locaties)
+* [Metingen top 10](##Metingen-top-10)
 
-## Legenda
+##Legenda
 Als gebruiker wil ik een tabel hebben van de stofnamen en hun omschrijving zodat ik deze als legenda kan gebruiken.
 - Pagina aanpassen
 
@@ -23,7 +23,7 @@ Als gebruiker wil ik een tabel hebben van de stofnamen en hun omschrijving zodat
 - Klik op `Run locally` bovenin de modeller
 - Done!
 
-## Locatie omschrijving
+##Locatie-omschrijving
 Als gebruiker wil ik de omschrijving van de locatie van luchtmeetnet.nl zien als ik deze aanklik in de lijst met alle locaties, zodat ik wat meer achtergrond informatie heb.
 - Domeinmodel aanpassen
 - REST Data mapping aanpassen
@@ -41,7 +41,7 @@ Als gebruiker wil ik de omschrijving van de locatie van luchtmeetnet.nl zien als
 - Klik op `Run locally` bovenin de modeller
 - Done!
 
-## Favoriete locaties
+##Favoriete-locaties
 Als gebruiker wil ik een locatie kunnen markeren als favoriet, zodat deze bovenaan in de lijst komt te staan.
 - Domeinmodel aanpassen
 - Knop op pagina
@@ -62,7 +62,7 @@ Als gebruiker wil ik een locatie kunnen markeren als favoriet, zodat deze bovena
 - Klik op `Run locally` bovenin de modeller
 - Done!
 	
-## Metingen top 10
+##Metingen-top-10
 Als gebruiker wil ik een top 10 van de hoogste metingen zien zodat ik deze locaties kan vermijden.
 Ga ervan uit dat locaties met de meeste fijnstaf (PM25) het minst fris zijn
 - Microflow aanpassen
