@@ -1,8 +1,12 @@
-# Opstarten
-* Download het zip bestand van [WeTransfer](https://we.tl/t-axNGEGaOPh).en pak dat uit (liefst niet in een OneDrive map)
-* Installeer de Mendix modeler met het .exe bestand
+# Getting started
+* Maak [hier](https://signup.mendix.com/link/signup/?ref=41599) een Mendix account aan
+
+* Download de Mendix Modeler via [WeTransfer](https://we.tl/t-7ZMnr1ZeMi) of via de Mendix [Appstore](https://appstore.home.mendix.com/link/modelers/) (kies versie 7.22.2)
+* Installeer de Modeler
+
+* Download het demo-project uit de ZIP op deze Github pagina
 * Open het bestand `COS.mpr`
-* Klik het inlogscherm weg
+* Login met je nieuwe Mendix account
 * Alle benodigde logica, schermen en data staat in de module `AirMonitor`
 
 # User stories
