@@ -15,6 +15,8 @@
 
 ## Legenda
 Als gebruiker wil ik een tabel hebben van de stofnamen en hun omschrijving zodat ik deze als legenda kan gebruiken.
+
+Wat moet je allemaal doen?
 - Pagina aanpassen
 
 ### Uitwerking
@@ -27,6 +29,8 @@ Als gebruiker wil ik een tabel hebben van de stofnamen en hun omschrijving zodat
 
 ## Locatie-omschrijving
 Als gebruiker wil ik de omschrijving van de locatie van luchtmeetnet.nl zien als ik deze aanklik in de lijst met alle locaties, zodat ik wat meer achtergrond informatie heb.
+
+Wat moet je allemaal doen?
 - Domeinmodel aanpassen
 - REST Data mapping aanpassen
 - Pagina aanpassen
@@ -45,6 +49,8 @@ Als gebruiker wil ik de omschrijving van de locatie van luchtmeetnet.nl zien als
 
 ## Favoriete-locaties
 Als gebruiker wil ik een locatie kunnen markeren als favoriet, zodat deze bovenaan in de lijst komt te staan.
+
+Wat moet je allemaal doen?
 - Domeinmodel aanpassen
 - Knop op pagina
 - Microflow
@@ -67,6 +73,8 @@ Als gebruiker wil ik een locatie kunnen markeren als favoriet, zodat deze bovena
 ## Metingen-top-10
 Als gebruiker wil ik een top 10 van de hoogste metingen zien zodat ik deze locaties kan vermijden.
 Ga ervan uit dat locaties met de meeste fijnstaf (PM25) het minst fris zijn
+
+Wat moet je allemaal doen?
 - Microflow aanpassen
 - Pagina aanpassen
 
