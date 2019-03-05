@@ -1,11 +1,19 @@
-# Opstarten
-* Download het zip bestand van [WeTransfer](https://we.tl/t-axNGEGaOPh).en pak dat uit (liefst niet in een OneDrive map)
-* Installeer de Mendix modeler met het .exe bestand
+# Getting started
+* Maak [hier](https://signup.mendix.com/link/signup/?ref=41599) een Mendix account aan
+
+* Download de Mendix Modeler via [WeTransfer](https://we.tl/t-7ZMnr1ZeMi) of via de Mendix [Appstore](https://appstore.home.mendix.com/link/modelers/) (kies versie 7.22.2)
+* Installeer de Modeler
+
+* Download het demo-project uit de ZIP op deze Github pagina
 * Open het bestand `COS.mpr`
-* Klik het inlogscherm weg
+* Login met je nieuwe Mendix account
 * Alle benodigde logica, schermen en data staat in de module `AirMonitor`
 
 # User stories
+* [Legenda](#Legenda)
+* [Locatie omschrijving](#Locatie-omschrijving)
+* [Favoriete locaties](#Favoriete-locaties)
+* [Metingen top 10](#Metingen-top-10)
 
 ## Legenda
 Als gebruiker wil ik een tabel hebben van de stofnamen en hun omschrijving zodat ik deze als legenda kan gebruiken.
@@ -19,7 +27,7 @@ Als gebruiker wil ik een tabel hebben van de stofnamen en hun omschrijving zodat
 - Klik op `Run locally` bovenin de modeller
 - Done!
 
-## Locatie omschrijving
+## Locatie-omschrijving
 Als gebruiker wil ik de omschrijving van de locatie van luchtmeetnet.nl zien als ik deze aanklik in de lijst met alle locaties, zodat ik wat meer achtergrond informatie heb.
 - Domeinmodel aanpassen
 - REST Data mapping aanpassen
@@ -37,7 +45,7 @@ Als gebruiker wil ik de omschrijving van de locatie van luchtmeetnet.nl zien als
 - Klik op `Run locally` bovenin de modeller
 - Done!
 
-## Favoriete locaties
+## Favoriete-locaties
 Als gebruiker wil ik een locatie kunnen markeren als favoriet, zodat deze bovenaan in de lijst komt te staan.
 - Domeinmodel aanpassen
 - Knop op pagina
@@ -58,7 +66,7 @@ Als gebruiker wil ik een locatie kunnen markeren als favoriet, zodat deze bovena
 - Klik op `Run locally` bovenin de modeller
 - Done!
 	
-## Metingen top 10
+## Metingen-top-10
 Als gebruiker wil ik een top 10 van de hoogste metingen zien zodat ik deze locaties kan vermijden.
 Ga ervan uit dat locaties met de meeste fijnstaf (PM25) het minst fris zijn
 - Microflow aanpassen
