@@ -1,10 +1,10 @@
-# Getting started
-* Maak [hier](https://signup.mendix.com/link/signup/?ref=135440) een Mendix account aan
-* Download de Mendix Studio Pro via de Mendix [Marketplace](https://marketplace.mendix.com/link/studiopro/) (kies versie 8.18.11)
+# Getting started (Als het goed is zijn de eerste drie stappen al voltooit)
+* Maak [hier](https://signup.mendix.com/link/signup/?ref=41599) een Mendix account aan
+* Download de Mendix Modeler via de Mendix [Marketplace](https://marketplace.mendix.com/link/studiopro/8.18.10) (kies versie 8.18.10)
 * Installeer de Modeler
 * Download het demo-project met de ZIP op deze Github pagina
 * Pak de ZIP uit, bij voorkeur niet in een Netwerk of OneDrive folder
-* Open het bestand `COS.mpr`
+* Open het bestand `HandsOn-Mendix.mpr`
 * Login met je nieuwe Mendix account
 * Alle benodigde logica, schermen en data staat in de module `AirMonitor`
 
@@ -21,15 +21,16 @@ Wat moet je allemaal doen?
 - Pagina aanpassen
 
 ### Uitwerking
-- Voeg op de pagina `Component_Legend`een `data grid` toe in het vak `Main`
+- Voeg op de pagina `Component_Legend` een `data grid` toe in tweede `row` van het `Layout grid`
 - Dubbelklik op het grid en kies de juiste entiteit op het tabblad `Data Source` (laat het type op database staan)
 - Laat Mendix het datagrid automatisch voor je invullen
 - Verwijder de knoppen `New` en `Edit` van het datagrid
 - Klik op `Run locally` bovenin de modeller
 - Done!
+- Extra: bekijk eens hoe eenvoudig je de `Column widths` kunt aanpassen om bijvoorbeed de `Description` meer zichtbaar te maken.
 
 ## Locatie-omschrijving
-Als gebruiker wil ik de omschrijving van de locatie van luchtmeetnet.nl zien als ik deze aanklik in de lijst met alle locaties, zodat ik wat meer achtergrond informatie heb.
+Als gebruiker wil ik de organisatie verantwoordelijk voor de locatie van luchtmeetnet.nl zien als ik deze aanklik in de lijst met alle locaties, zodat ik wat meer achtergrond informatie heb.
 
 Wat moet je allemaal doen?
 - Domeinmodel aanpassen
@@ -37,16 +38,20 @@ Wat moet je allemaal doen?
 - Pagina aanpassen
 
 ### Uitwerking
-- De omschrijving van de locatie wordt al aangeleverd door de API van luchtmeetnet.nl, deze wordt alleen nog niet ingeladen in het datamodel.
-- Voeg een String-attribuut toe op het Location object, bijvoorbeeld 'Description', zet de lengte op unlimited
+- De organisatie verantwoordelijk voor de locatie wordt al aangeleverd door de API van luchtmeetnet.nl, deze wordt alleen nog niet ingeladen in het datamodel.
+- Voeg een String-attribuut toe op het Location object (`Station`), bijvoorbeeld `Organization`
 - Open de import mapping `IM_Station` in de map API > Mappings
-- Klik op `Select elements` en zet een vinkje bij NL onder description en klik op OK
+- Klik op `Select elements` en zet een vinkje bij Organization en klik op OK
 - Dubbelklik op het rode bolletje aan de rechterkant van mapping
 - Map het de waarde naar het juiste attribuut
-- Voeg een `text area` widget toe aan de rechterkant van het `Location_Overview` scherm
-- Kies het juiste attribuut en verberg het label
+- Voeg de Organisatie toe aan de rechterkant van het `Location_Overview` scherm
+- Dubbel klik op `{Location}` en `Edit` de `Caption`
+	- Voeg `Organization` toe als `Parameter`
+	- Pas de `Caption` aan zodat de waarde van `Organization` gebruikt word achter de `Location`
 - Klik op `Run locally` bovenin de modeller
 - Done!
+- Extra: Bekijk wat nog meer een nuttige plek is voor het `Organization` veld en probeer deze toe te voegen
+- Extra: Zorg dat je aan de linkerkant van het `Location_Overview` scherm ook kunt zoeken op het `Organization` veld 
 
 ## Favoriete-locaties
 Als gebruiker wil ik een locatie kunnen markeren als favoriet, zodat deze bovenaan in de lijst komt te staan.
@@ -80,7 +85,7 @@ Wat moet je allemaal doen?
 - Pagina aanpassen
 
 ### Uitwerking
-- Open de microflow `DS_GetMeasurements_Top5`
+- Open de microflow `DS_GetMeasurements_Top10`
 - Voeg hier een `Microflow call` action aan toe en kies de microflow `SUB_SearchMeasurements_Last1H`
 - Vul de juiste parameter in
 - Voeg een `List operation` actie toe en sorteer de lijst met alle meetwaarden op `Value` (aflopend), noem de lijst `SortedMeasurementList`
@@ -91,3 +96,6 @@ Wat moet je allemaal doen?
 - Voeg een `Break` en een `Continue` actie toe aan de loop, verbind de `Break` met de `True` flow van de split en `Continue` met de false flow.
 - Klik op `Run locally` bovenin de modeller
 - Done!
+
+## Extra
+- Laat je niet limiteren tot wat er in de opdrachten staat, als je iets bedenkt kun je het maken!
