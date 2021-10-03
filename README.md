@@ -1,6 +1,6 @@
 # Getting started
 * Maak [hier](https://signup.mendix.com/link/signup/?ref=135440) een Mendix account aan
-* Download de Mendix Studio Pro via de Mendix [Marketplace](https://marketplace.mendix.com/link/studiopro/) (kies versie 8.18.10)
+* Download de Mendix Studio Pro via de Mendix [Marketplace](https://marketplace.mendix.com/link/studiopro/) (kies versie 8.18.11)
 * Installeer de Modeler
 * Download het demo-project met de ZIP op deze Github pagina
 * Pak de ZIP uit, bij voorkeur niet in een Netwerk of OneDrive folder
