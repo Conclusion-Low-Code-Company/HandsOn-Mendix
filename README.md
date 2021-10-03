@@ -1,5 +1,5 @@
 # Getting started
-* Maak [hier](https://signup.mendix.com/link/signup/?ref=41599) een Mendix account aan
+* Maak [hier](https://signup.mendix.com/link/signup/?ref=135440) een Mendix account aan
 * Download de Mendix Modeler via [WeTransfer](https://we.tl/t-7ZMnr1ZeMi) of via de Mendix [Appstore](https://appstore.home.mendix.com/link/modelers/) (kies versie 7.22.2)
 * Installeer de Modeler
 * Download het demo-project met de ZIP op deze Github pagina
