@@ -99,3 +99,4 @@ Wat moet je allemaal doen?
 
 ## Extra
 - Laat je niet limiteren tot wat er in de opdrachten staat, als je iets bedenkt kun je het maken!
+- Denk bijv. aan: wat gebeurt er als de webserivce down?
