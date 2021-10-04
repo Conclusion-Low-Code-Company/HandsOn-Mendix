@@ -62,7 +62,7 @@ Wat moet je allemaal doen?
 - Microflow
 
 ### Uitwerking
-- Voeg een boolean attribuut met een toepasselijke naam toe op 'Location' in het domein model (bijv. IsFavorite)
+- Voeg een boolean attribuut met een toepasselijke naam toe op 'Station' in het domein model (bijv. IsFavorite)
 - Sorteer de `list view` op de pagina `Location overview` op het zojuist toegevoegde attribuut. Dubbelklik op de regel `Sort order` om de sortering aan te passen
 - Dubbelklik op de link-knop met het > icoon
 - Verander de actie in `Call a microflow` en maak een nieuw microflow aan `ACT_Location_ToggleFavorite`. Deze krijgt automatisch het station mee als parameter
