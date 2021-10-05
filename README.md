@@ -45,7 +45,8 @@ Wat moet je allemaal doen?
 - Dubbelklik op het rode bolletje aan de rechterkant van mapping
 - Map het de waarde naar het juiste attribuut
 - Voeg de Organisatie toe aan de rechterkant van het `Location_Overview` scherm:
-  	Dubbel klik op `{Location}` en `Edit` de `Caption`
+	
+	Dubbel klik op `{Location}` en `Edit` de `Caption`
 	- Voeg `Organization` toe als `Parameter`
 	- Pas de `Caption` aan zodat de waarde van `Organization` gebruikt word achter de `Location`
 - Klik op `Run locally` bovenin de modeller
