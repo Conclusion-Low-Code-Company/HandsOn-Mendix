@@ -22,7 +22,7 @@ Wat moet je allemaal doen?
 
 ### Uitwerking
 - Voeg op de pagina `Component_Legend` een `data grid` toe in tweede `row` van het `Layout grid`
-- Dubbelklik op het grid en kies de juiste entiteit op het tabblad `Data Source` (laat het type op database staan)
+- Dubbelklik op het grid en kies de entiteit 'Component' op het tabblad `Data Source` (laat het type op database staan)
 - Laat Mendix het datagrid automatisch voor je invullen
 - Verwijder de knoppen `New` en `Edit` van het datagrid
 - Klik op `Run locally` bovenin de modeller
@@ -44,8 +44,8 @@ Wat moet je allemaal doen?
 - Klik op `Select elements` en zet een vinkje bij Organization en klik op OK
 - Dubbelklik op het rode bolletje aan de rechterkant van mapping
 - Map het de waarde naar het juiste attribuut
-- Voeg de Organisatie toe aan de rechterkant van het `Location_Overview` scherm
-- Dubbel klik op `{Location}` en `Edit` de `Caption`
+- Voeg de Organisatie toe aan de rechterkant van het `Location_Overview` scherm:
+  	Dubbel klik op `{Location}` en `Edit` de `Caption`
 	- Voeg `Organization` toe als `Parameter`
 	- Pas de `Caption` aan zodat de waarde van `Organization` gebruikt word achter de `Location`
 - Klik op `Run locally` bovenin de modeller
