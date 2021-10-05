@@ -66,7 +66,7 @@ Wat moet je allemaal doen?
 - Voeg een boolean attribuut met een toepasselijke naam toe op 'Station' in het domein model (bijv. IsFavorite)
 - Sorteer de `list view` op de pagina `Location overview` op het zojuist toegevoegde attribuut. Dubbelklik op de regel `Sort order` om de sortering aan te passen
 - Dubbelklik op de link-knop met het > icoon
-- Verander de actie in `Call a microflow` en maak een nieuw microflow aan `ACT_Location_ToggleFavorite`. Deze krijgt automatisch het station mee als parameter
+- Verander het event in `Call a microflow` en maak een nieuw microflow aan `ACT_Location_ToggleFavorite`. Deze krijgt automatisch het station mee als parameter
 - Voeg een `Change object` actie toe en wissel de waarde van het nieuwe attribuut om: not($Station/IsFavorite)
 - Zet `Commit`  en `Refresh in Client` beiden op Yes
 - Ga terug naar het scherm en verander het > icoon in het overzicht in een `star empty` icoon
