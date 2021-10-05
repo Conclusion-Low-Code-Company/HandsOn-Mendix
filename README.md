@@ -1,4 +1,4 @@
-# Getting started (Als het goed is zijn de eerste drie stappen al voltooit)
+# Getting started
 * Maak [hier](https://signup.mendix.com/link/signup/?ref=135440) een Mendix account aan
 * Download de Mendix Modeler via de Mendix [Marketplace](https://marketplace.mendix.com/link/studiopro/8.18.10) (kies versie 8.18.10)
 * Installeer de Modeler
