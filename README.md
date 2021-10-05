@@ -93,7 +93,7 @@ Wat moet je allemaal doen?
 - Voeg een `Loop` toe en kies de `SortedMeasurementList` om over te itereren
 - Voeg binnen de loop een `change list` actie toe en voeg de meting toe aan de Top10 lijst
 - Voeg binnen de loop een `aggregate list` actie toe en tel het aantal object in de de Top10 lijst
-- Voeg een `Exclusive split` toe en test of er al 10 metingen in de lijst zitten ($Count >= 10)
+- Voeg een `Decision` toe en test of er al 10 metingen in de lijst zitten ($Count >= 10)
 - Voeg een `Break` en een `Continue` actie toe aan de loop, verbind de `Break` met de `True` flow van de split en `Continue` met de false flow.
 - Klik op `Run locally` bovenin de modeller
 - Done!
