@@ -22,4 +22,4 @@ Voorbeeldlocaties:
 
     <img src="../img/navigation-1.png"  width="750">
 
-- Run de app
+- Run de app met het groene "play" icoontje rechtsbovenin Studio Pro.
