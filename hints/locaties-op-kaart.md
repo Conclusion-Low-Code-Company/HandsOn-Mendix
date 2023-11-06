@@ -8,6 +8,7 @@
 
     <img src="../img/homepage-maps-1.png"  width="750">
 
+- Dubbelklik op de maps widget om de eigenschappen te openen
 - voeg een `Marker List` toe
 
 - Stel de widget zo in dat de locatie `Entity` en de coordinaten uit de vorige story worden gebruikt
