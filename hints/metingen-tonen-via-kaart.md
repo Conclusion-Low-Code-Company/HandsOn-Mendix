@@ -17,7 +17,7 @@
   <img src="../img/meetstation-view-2.png"  width="750">
 
 - Voeg een `Data Grid` toe binnen de `Data View`
-- Stel de `Data Source` in op `Microflow`, kies 'New' en geef de microflow een logische naam (bijvoorbeeld MetingenOphalen)
+- Stel de `Data Source` in op `Microflow`, en kies hier de microflow die je in de vorige story hebt aangemaakt
 
   <img src="../img/meetstation-view-3.png"  width="750">
 
